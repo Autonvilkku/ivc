@@ -98,7 +98,7 @@ int main(int argc, char *argv[]) {
   Init(&win);
 
   struct image img;
-  if (LoadImage(&img, "image.jpg")) {
+  if (LoadImage(&img, argv[1])) {
     Destroy(&win);
     return 1;
   }
