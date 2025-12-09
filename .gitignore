@@ -1,3 +1,8 @@
+# Ignore build
+build/
+buildAndRun.sh
+
+
 # Prerequisites
 *.d
 
